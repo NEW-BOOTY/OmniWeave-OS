@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Copyright © 2025, Devin B. Royal. All rights reserved.
+
+set -Eeuo pipefail
+IFS=$'\n\t'
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+exec "${ROOT}/omniweave-fix-and-run.sh" "${@:-up}"
+
+# Copyright © 2025, Devin B. Royal. All rights reserved.

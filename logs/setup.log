@@ -1,0 +1,185 @@
+{"level":"INFO","ts":"2025-12-16T00:40:22Z","msg":"Starting OmniWeave OS enhancement v1.2.0 (section: all)"}
+{"level":"INFO","ts":"2025-12-16T00:40:22Z","msg":"Enhancing top-level governance and config files"}
+{"level":"INFO","ts":"2025-12-16T00:40:25Z","msg":"Enhancing module scripts..."}
+{"level":"INFO","ts":"2025-12-16T00:40:26Z","msg":"All requested enhancements applied."}
+{"level":"INFO","ts":"2025-12-16T00:57:24Z","msg":"Detecting platform and essential toolchains..."}
+{"level":"INFO","ts":"2025-12-16T00:57:25Z","msg":"Platform: macOS"}
+{"level":"INFO","ts":"2025-12-16T00:57:25Z","msg":"Bootstrapping Python virtual environment..."}
+{"level":"INFO","ts":"2025-12-16T00:57:43Z","msg":"Created Python venv at /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/.venv"}
+{"level":"WARN","ts":"2025-12-16T00:57:43Z","msg":"No requirements.txt found – skipping dependency installation"}
+{"level":"WARN","ts":"2025-12-16T00:57:43Z","msg":"Skipping git hooks (no .git directory or git missing)"}
+{"level":"INFO","ts":"2025-12-16T00:57:44Z","msg":"Running basic validation..."}
+{"level":"WARN","ts":"2025-12-16T00:57:44Z","msg":"validate.sh not present or executable – skipping final validation"}
+{"level":"INFO","ts":"2025-12-16T00:57:45Z","msg":"OmniWeave OS environment successfully initialized"}
+{"level":"INFO","ts":"2025-12-16T01:00:10Z","msg":"Detecting platform and essential toolchains..."}
+{"level":"INFO","ts":"2025-12-16T01:00:10Z","msg":"Platform: macOS"}
+{"level":"INFO","ts":"2025-12-16T01:00:10Z","msg":"Bootstrapping Python virtual environment..."}
+{"level":"INFO","ts":"2025-12-16T01:00:10Z","msg":"Python venv already exists"}
+{"level":"INFO","ts":"2025-12-16T01:02:25Z","msg":"Detecting platform and essential toolchains..."}
+{"level":"INFO","ts":"2025-12-16T01:02:25Z","msg":"Platform: macOS"}
+{"level":"INFO","ts":"2025-12-16T01:02:25Z","msg":"Bootstrapping Python virtual environment..."}
+{"level":"INFO","ts":"2025-12-16T01:02:26Z","msg":"Python venv already exists"}
+{"level":"INFO","ts":"2025-12-16T01:08:41Z","msg":"Starting OmniWeave OS validation v1.0.1"}
+{"level":"INFO","ts":"2025-12-16T01:08:41Z","msg":"Checking SPDX headers in source files..."}
+{"level":"ERROR","ts":"2025-12-16T01:08:44Z","msg":"Files missing SPDX header:"}
+{"level":"INFO","ts":"2025-12-16T01:08:45Z","msg":"Checking copyright headers..."}
+{"level":"ERROR","ts":"2025-12-16T01:08:45Z","msg":"Files missing copyright header:"}
+{"level":"INFO","ts":"2025-12-16T01:08:46Z","msg":"Validating configuration files..."}
+{"level":"INFO","ts":"2025-12-16T01:08:46Z","msg":"Verifying provenance log..."}
+{"level":"INFO","ts":"2025-12-16T01:08:46Z","msg":"Provenance log is valid JSONL"}
+{"level":"INFO","ts":"2025-12-16T01:08:46Z","msg":"SBOM present"}
+{"level":"INFO","ts":"2025-12-16T01:08:47Z","msg":"OmniWeave OS validation passed"}
+{"level":"INFO","ts":"2025-12-16T01:11:31Z","msg":"Starting OmniWeave OS audit v1.0.0"}
+{"level":"INFO","ts":"2025-12-16T01:11:32Z","msg":"Auditing license headers..."}
+{"level":"ERROR","ts":"2025-12-16T01:11:34Z","msg":"Files missing SPDX-License-Identifier:"}
+{"level":"ERROR","ts":"2025-12-16T01:11:34Z","msg":"Files missing copyright notice:"}
+{"level":"INFO","ts":"2025-12-16T01:11:35Z","msg":"Verifying provenance chain..."}
+{"level":"INFO","ts":"2025-12-16T01:11:35Z","msg":"Provenance log is valid JSONL"}
+{"level":"INFO","ts":"2025-12-16T01:11:36Z","msg":"Provenance contains      197 events"}
+{"level":"INFO","ts":"2025-12-16T01:11:37Z","msg":"Validating SBOM..."}
+{"level":"INFO","ts":"2025-12-16T01:11:37Z","msg":"sbom.json is valid JSON"}
+{"level":"WARN","ts":"2025-12-16T01:11:38Z","msg":"Runtime contract schema missing"}
+{"level":"INFO","ts":"2025-12-16T01:11:38Z","msg":"OmniWeave OS audit completed successfully"}
+{"level":"INFO","ts":"2025-12-16T01:14:02Z","msg":"Executing m3hlan-doctor v1.0.0"}
+{"level":"INFO","ts":"2025-12-16T01:14:03Z","msg":"Checking core directories..."}
+{"level":"OK","ts":"2025-12-16T01:14:03Z","msg":"Found: core"}
+{"level":"OK","ts":"2025-12-16T01:14:03Z","msg":"Found: scripts"}
+{"level":"ISSUE","ts":"2025-12-16T01:14:03Z","msg":"Missing: configs – run omniweave-os-m3hlan-init.sh and omniweave_enhance.sh"}
+{"level":"ISSUE","ts":"2025-12-16T01:14:03Z","msg":"Missing: modules – run omniweave-os-m3hlan-init.sh and omniweave_enhance.sh"}
+{"level":"OK","ts":"2025-12-16T01:14:04Z","msg":"Found: predictive_engine"}
+{"level":"OK","ts":"2025-12-16T01:14:04Z","msg":"Found: ml_models"}
+{"level":"OK","ts":"2025-12-16T01:14:04Z","msg":"Found: observability"}
+{"level":"OK","ts":"2025-12-16T01:14:04Z","msg":"Found: provenance.log.jsonl"}
+{"level":"OK","ts":"2025-12-16T01:14:04Z","msg":"Found: sbom.json"}
+{"level":"INFO","ts":"2025-12-16T01:14:05Z","msg":"Checking essential toolchains..."}
+{"level":"OK","ts":"2025-12-16T01:14:05Z","msg":"git detected (git version 2.52.0)"}
+{"level":"OK","ts":"2025-12-16T01:14:06Z","msg":"make detected (GNU Make 3.81)"}
+{"level":"OK","ts":"2025-12-16T01:14:07Z","msg":"python3 detected (Python 3.9.6)"}
+{"level":"OK","ts":"2025-12-16T01:14:07Z","msg":"go detected (flag provided but)"}
+{"level":"OK","ts":"2025-12-16T01:14:08Z","msg":"cargo detected (cargo 1.92.0 (Homebrew))"}
+{"level":"OK","ts":"2025-12-16T01:14:08Z","msg":"node detected (v25.2.1)"}
+{"level":"OK","ts":"2025-12-16T01:14:10Z","msg":"npm detected (11.7.0)"}
+{"level":"INFO","ts":"2025-12-16T01:14:10Z","msg":"Checking Python virtual environment..."}
+{"level":"OK","ts":"2025-12-16T01:14:10Z","msg":"Virtual environment exists"}
+{"level":"OK","ts":"2025-12-16T01:14:10Z","msg":"requirements.txt present"}
+{"level":"INFO","ts":"2025-12-16T01:14:11Z","msg":"Checking Git repository state..."}
+{"level":"ISSUE","ts":"2025-12-16T01:14:11Z","msg":".git directory missing – run git init or clone properly"}
+{"level":"INFO","ts":"2025-12-16T01:14:11Z","msg":"Checking key configuration files..."}
+{"level":"ISSUE","ts":"2025-12-16T01:14:12Z","msg":".env missing"}
+{"level":"OK","ts":"2025-12-16T01:14:12Z","msg":"provenance.log.jsonl present"}
+{"level":"OK","ts":"2025-12-16T01:14:12Z","msg":"sbom.json present"}
+{"level":"INFO","ts":"2025-12-16T02:23:30Z","msg":"Starting full code injection for OmniWeave OS"}
+{"level":"INFO","ts":"2025-12-16T02:23:31Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/distributed_build.log"}
+{"level":"INFO","ts":"2025-12-16T02:23:31Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/genesis_audit.log"}
+{"level":"INFO","ts":"2025-12-16T02:23:32Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/transparency.log"}
+{"level":"INFO","ts":"2025-12-16T02:23:33Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/upgrade_audit.log"}
+{"level":"INFO","ts":"2025-12-16T02:23:35Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/structure.txt"}
+{"level":"INFO","ts":"2025-12-16T02:23:36Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/sbom.json"}
+{"level":"INFO","ts":"2025-12-16T02:23:36Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/Makefile"}
+{"level":"INFO","ts":"2025-12-16T02:23:37Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/core/build.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:38Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/core/cas_spec.md"}
+{"level":"INFO","ts":"2025-12-16T02:23:39Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/core/sandbox_policy.json"}
+{"level":"INFO","ts":"2025-12-16T02:23:40Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/docs/QUICKSTART.md"}
+{"level":"INFO","ts":"2025-12-16T02:23:41Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ergonomics/branding_config.yml"}
+{"level":"INFO","ts":"2025-12-16T02:23:42Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ergonomics/ci_cd_pipeline.yml"}
+{"level":"INFO","ts":"2025-12-16T02:23:43Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/extensions/plugin_api.md"}
+{"level":"INFO","ts":"2025-12-16T02:23:43Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/manifest.schema.json"}
+{"level":"INFO","ts":"2025-12-16T02:23:44Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/targets.json"}
+{"level":"INFO","ts":"2025-12-16T02:23:45Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/cargo_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:46Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/cmake_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:47Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/dotnet_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:48Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/go_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:49Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/gradle_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:51Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/maven_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:52Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/npm_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:53Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/pip_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:54Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/poetry_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:55Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/swift_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:56Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/yarn_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:23:57Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ml_models/error_prediction_v1.model"}
+{"level":"INFO","ts":"2025-12-16T02:23:58Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ml_models/resource_alloc_v1.model"}
+{"level":"INFO","ts":"2025-12-16T02:23:59Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/observability/error_catalog.md"}
+{"level":"INFO","ts":"2025-12-16T02:24:00Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/observability/logging_config.yml"}
+{"level":"INFO","ts":"2025-12-16T02:24:01Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/polyglot_runtime/polyglot_manifest.schema.json"}
+{"level":"INFO","ts":"2025-12-16T02:24:02Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/polyglot_runtime/runtime_orchestrator.rs"}
+{"level":"INFO","ts":"2025-12-16T02:24:03Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/predictive_engine/engine.py"}
+{"level":"INFO","ts":"2025-12-16T02:24:04Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/predictive_engine/predictive_config.yml"}
+{"level":"INFO","ts":"2025-12-16T02:24:05Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/scripts/acm_orchestrate.sh"}
+{"level":"INFO","ts":"2025-12-16T02:24:06Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/README.md"}
+{"level":"INFO","ts":"2025-12-16T02:28:46Z","msg":"Starting ACM orchestration v1.0.0 (full mode: true)"}
+{"level":"INFO","ts":"2025-12-16T02:28:46Z","msg":"Created missing pipelines directory"}
+{"level":"INFO","ts":"2025-12-16T02:28:47Z","msg":"Executing language adapters..."}
+{"level":"INFO","ts":"2025-12-16T02:28:47Z","msg":"Running adapter: cargo_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:28:48Z","msg":"Adapter cargo_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:28:48Z","msg":"Running adapter: cmake_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:28:49Z","msg":"Adapter cmake_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:28:49Z","msg":"Running adapter: dotnet_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:28:52Z","msg":"Adapter dotnet_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:28:52Z","msg":"Running adapter: go_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:28:53Z","msg":"Adapter go_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:28:53Z","msg":"Running adapter: gradle_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:29:03Z","msg":"Adapter gradle_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:29:03Z","msg":"Running adapter: maven_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:29:03Z","msg":"Running adapter: npm_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:29:05Z","msg":"Adapter npm_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:29:05Z","msg":"Running adapter: pip_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:29:08Z","msg":"Adapter pip_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:29:08Z","msg":"Running adapter: poetry_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:29:08Z","msg":"Running adapter: swift_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:29:26Z","msg":"Adapter swift_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:29:27Z","msg":"Running adapter: yarn_adapter.sh"}
+{"level":"WARN","ts":"2025-12-16T02:29:28Z","msg":"Adapter yarn_adapter.sh failed – continuing"}
+{"level":"INFO","ts":"2025-12-16T02:29:29Z","msg":"Full mode: processing pipelines..."}
+{"level":"INFO","ts":"2025-12-16T02:29:29Z","msg":"ACM orchestration sequence complete"}
+{"level":"INFO","ts":"2025-12-16T02:29:29Z","msg":"ACM orchestration complete."}
+{"level":"INFO","ts":"2025-12-16T02:35:22Z","msg":"Starting full code injection for OmniWeave OS"}
+{"level":"INFO","ts":"2025-12-16T02:35:22Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/distributed_build.log"}
+{"level":"INFO","ts":"2025-12-16T02:35:23Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/genesis_audit.log"}
+{"level":"INFO","ts":"2025-12-16T02:35:23Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/transparency.log"}
+{"level":"INFO","ts":"2025-12-16T02:35:23Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/upgrade_audit.log"}
+{"level":"INFO","ts":"2025-12-16T02:35:24Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/structure.txt"}
+{"level":"INFO","ts":"2025-12-16T02:35:25Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/sbom.json"}
+{"level":"INFO","ts":"2025-12-16T02:35:25Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/Makefile"}
+{"level":"INFO","ts":"2025-12-16T02:35:26Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/core/build.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:26Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/core/cas_spec.md"}
+{"level":"INFO","ts":"2025-12-16T02:35:26Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/core/sandbox_policy.json"}
+{"level":"INFO","ts":"2025-12-16T02:35:27Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/docs/QUICKSTART.md"}
+{"level":"INFO","ts":"2025-12-16T02:35:27Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ergonomics/branding_config.yml"}
+{"level":"INFO","ts":"2025-12-16T02:35:27Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ergonomics/ci_cd_pipeline.yml"}
+{"level":"INFO","ts":"2025-12-16T02:35:28Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/extensions/plugin_api.md"}
+{"level":"INFO","ts":"2025-12-16T02:35:28Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/manifest.schema.json"}
+{"level":"INFO","ts":"2025-12-16T02:35:28Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/targets.json"}
+{"level":"INFO","ts":"2025-12-16T02:35:29Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/cargo_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:29Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/cmake_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:30Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/dotnet_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:30Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/go_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:31Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/gradle_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:31Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/maven_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:32Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/npm_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:32Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/pip_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:33Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/poetry_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:34Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/swift_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:35Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/manifests/adapters/yarn_adapter.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:36Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ml_models/error_prediction_v1.model"}
+{"level":"INFO","ts":"2025-12-16T02:35:37Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/ml_models/resource_alloc_v1.model"}
+{"level":"INFO","ts":"2025-12-16T02:35:37Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/observability/error_catalog.md"}
+{"level":"INFO","ts":"2025-12-16T02:35:38Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/observability/logging_config.yml"}
+{"level":"INFO","ts":"2025-12-16T02:35:38Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/polyglot_runtime/polyglot_manifest.schema.json"}
+{"level":"INFO","ts":"2025-12-16T02:35:38Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/polyglot_runtime/runtime_orchestrator.rs"}
+{"level":"INFO","ts":"2025-12-16T02:35:39Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/predictive_engine/engine.py"}
+{"level":"INFO","ts":"2025-12-16T02:35:39Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/predictive_engine/predictive_config.yml"}
+{"level":"INFO","ts":"2025-12-16T02:35:40Z","msg":"Injecting real code into /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/scripts/acm_orchestrate.sh"}
+{"level":"INFO","ts":"2025-12-16T02:35:41Z","msg":"Already injected: /Volumes/Devin_Royal/OmniWeave-OS/OmniWeave-OS/README.md"}
+{"level":"INFO","ts":"2025-12-16T02:35:42Z","msg":"Full code injection complete."}
+{"level":"INFO","ts":"2025-12-16T02:41:48Z","msg":"Fixing cargo adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:48Z","msg":"Fixing cmake adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:49Z","msg":"Fixing dotnet adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:49Z","msg":"Fixing go adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:49Z","msg":"Fixing gradle adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:50Z","msg":"Fixing maven adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:50Z","msg":"Fixing npm adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:50Z","msg":"Fixing pip adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:51Z","msg":"Fixing poetry adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:51Z","msg":"Fixing swift adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:52Z","msg":"Fixing yarn adapter..."}
+{"level":"INFO","ts":"2025-12-16T02:41:52Z","msg":"All language adapters have been repaired with real, safe, working logic."}
