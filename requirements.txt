@@ -1,0 +1,43 @@
+# requirements.txt
+# Copyright © 2025 Devin B. Royal.
+# All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+# Python dependencies for OmniWeave OS
+# This file is managed by the initialization ritual and enhancement scripts.
+# Pin versions for reproducibility and supply-chain security.
+
+# Core runtime and orchestration
+click==8.1.7          # CLI framework with type safety
+pydantic==2.9.2       # Data validation and settings management
+PyYAML==6.0.2         # YAML parsing with safe loader defaults
+jq==1.7.0             # JSON processing (via jq Python bindings)
+
+# Observability and provenance
+structlog==24.4.0     # Structured logging
+python-json-logger==2.0.7  # JSON log formatting
+
+# Security and compliance
+cryptography==43.0.1  # Cryptographic primitives (FIPS-compliant builds preferred)
+pyOpenSSL==24.2.1     # TLS handling
+
+# Predictive engine and intent selection
+numpy==2.1.2          # Numerical computing
+scipy==1.14.1         # Scientific computing
+scikit-learn==1.5.2   # ML primitives for predictive modeling
+
+# Contract embedding and validation
+jsonschema==4.23.0    # JSON Schema validation for runtime contracts
+referencing==0.35.1   # Modern JSON Schema referencing
+
+# Development and validation tools
+black==24.8.0         # Code formatting
+isort==5.13.2         # Import sorting
+flake8==7.1.1         # Linting
+pre-commit==3.8.0     # Git hook management
+pytest==8.3.3         # Testing framework
+pytest-cov==5.0.0     # Coverage reporting
+
+# Optional but recommended for local development
+requests==2.32.3      # HTTP client (with verified TLS defaults)

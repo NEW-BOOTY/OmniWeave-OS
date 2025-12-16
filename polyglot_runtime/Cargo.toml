@@ -1,0 +1,10 @@
+# Copyright © 2025, Devin B. Royal. All rights reserved.
+
+[package]
+name = "omniweave-polyglot-runtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Copyright © 2025, Devin B. Royal. All rights reserved.

@@ -1,0 +1,4 @@
+# Copyright © 2025, Devin B. Royal. All rights reserved.
+# Minimal workspace to make Bazel invocations functional.
+# NOTE: This intentionally uses only native Bazel rules to avoid external deps.
+# Copyright © 2025, Devin B. Royal. All rights reserved.

@@ -1,0 +1,17 @@
+/*
+ * Copyright © 2025 Devin B. Royal.
+ * All Rights Reserved.
+ */
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "languages": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "required": ["languages"]
+}
+# # FULLY INJECTED by omniweave_full_inject.sh v1.0.0 at 2025-12-16T02:23:30Z

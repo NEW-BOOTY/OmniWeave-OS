@@ -1,0 +1,20 @@
+/*
+ * Copyright © 2025 Devin B. Royal.
+ * All Rights Reserved.
+ */
+
+{
+  "SPDXID": "SPDXRef-Document",
+  "spdxVersion": "SPDX-2.2",
+  "creationInfo": {
+    "created": "2025-12-16T02:23:35Z",
+    "creators": ["Tool: OmniWeave OS Auditor v1.0"]
+  },
+  "name": "OmniWeave OS SBOM",
+  "dataLicense": "CC0-1.0",
+  "packages": [
+    {"SPDXID": "SPDXRef-bash", "name": "bash", "versionInfo": "5.0"},
+    {"SPDXID": "SPDXRef-python", "name": "python", "versionInfo": "3.10"}
+  ]
+}
+# # FULLY INJECTED by omniweave_full_inject.sh v1.0.0 at 2025-12-16T02:23:30Z
