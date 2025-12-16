@@ -1,10 +1,130 @@
-Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
+OmniWeave OS — Proprietary Evaluation License (Private Release)
 
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Copyright © 2025 Devin B. Royal.
+All rights reserved.
 
-[... Full Apache 2.0 License Text Omitted for Brevity ...]
+NOTICE
+This proprietary license governs evaluation use of OmniWeave OS.
+It is provided for private release and evaluation purposes only.
+It is not legal advice. Commercial, regulated, or government use
+requires a separate written agreement with the Owner.
 
-All rights reserved where not granted.
-# ENHANCED by omniweave_enhance.sh v1.2.0 at 2025-12-16T00:40:21Z
+------------------------------------------------------------
+1. Definitions
+------------------------------------------------------------
+
+“Software” means OmniWeave OS, including all source code, scripts,
+documentation, build artifacts, configuration files, and derivatives.
+
+“Owner” means Devin B. Royal.
+
+“You” means the individual or legal entity accessing or using the Software.
+
+“License File” means a cryptographically signed license document issued
+by Owner and verified by the Software at runtime.
+
+------------------------------------------------------------
+2. No Open-Source Grant
+------------------------------------------------------------
+
+The Software is not licensed under any open-source license.
+All rights not expressly granted are reserved by Owner.
+
+------------------------------------------------------------
+3. Limited Evaluation Permission
+------------------------------------------------------------
+
+Subject to full compliance with this License, Owner grants You a limited,
+non-exclusive, non-transferable, revocable permission to:
+
+a) Download and run the Software solely for internal evaluation,
+   research, or testing purposes; and
+
+b) Modify the Software only as necessary for internal evaluation,
+   provided such modifications are not distributed or disclosed.
+
+No production, commercial, or operational reliance is permitted.
+
+------------------------------------------------------------
+4. Restrictions
+------------------------------------------------------------
+
+You must not, directly or indirectly:
+
+a) Distribute, sublicense, sell, lease, rent, or provide the Software
+   as a hosted service or platform to any third party;
+
+b) Publish, disclose, or reverse-engineer proprietary implementation
+   details intended to replicate or compete with the Software;
+
+c) Remove, obscure, or alter copyright notices, trademarks,
+   or attribution;
+
+d) Circumvent, disable, or attempt to bypass license enforcement,
+   cryptographic signing, integrity verification, policy gates,
+   supervision controls, or sandbox mechanisms.
+
+------------------------------------------------------------
+5. License Enforcement
+------------------------------------------------------------
+
+The Software may require a valid License File to operate.
+
+You acknowledge that license enforcement, cryptographic verification,
+and policy gating are material terms of this License.
+
+Owner may revoke evaluation permissions at any time without notice.
+
+------------------------------------------------------------
+6. Ownership
+------------------------------------------------------------
+
+Owner retains all right, title, and interest, including all intellectual
+property rights, in and to the Software.
+
+No rights are granted by implication, estoppel, or otherwise.
+
+------------------------------------------------------------
+7. Disclaimer
+------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+------------------------------------------------------------
+8. Limitation of Liability
+------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL OWNER
+BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
+OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+------------------------------------------------------------
+9. Termination
+------------------------------------------------------------
+
+This License terminates automatically upon any violation.
+
+Upon termination, You must immediately cease use of the Software
+and delete all copies in Your possession or control.
+
+------------------------------------------------------------
+10. Commercial / Enterprise / Government Use
+------------------------------------------------------------
+
+Any commercial use, redistribution, SaaS deployment, integration into
+products, regulated environment use, or government / defense deployment
+requires a separate written agreement executed by Owner.
+
+------------------------------------------------------------
+11. Governing Law
+------------------------------------------------------------
+
+This License shall be governed by and construed in accordance with
+the laws of the United States, without regard to conflict-of-law rules.
+
+------------------------------------------------------------
+END OF LICENSE
+------------------------------------------------------------
